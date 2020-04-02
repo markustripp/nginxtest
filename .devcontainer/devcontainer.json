@@ -1,0 +1,10 @@
+{
+	"name": "NGINX Test",
+	"dockerFile": "Dockerfile",
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/ash"
+	},
+	"extensions": [],
+	"postCreateCommand": "uname -a"
+}
