@@ -6,5 +6,6 @@
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 	"extensions": [],
+	"forwardPorts": [80],
 	"postCreateCommand": "uname -a"
 }
