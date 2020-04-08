@@ -2,6 +2,8 @@ FROM nginx:1.17
 
 ### nginx-after
 
+RUN sed -i 's/user\s*nginx/user  root/' /etc/nginx/nginx.conf
+
 RUN set -eux; \
 	{ \
 		echo 'server {'; \
