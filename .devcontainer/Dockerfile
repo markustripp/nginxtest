@@ -19,3 +19,5 @@ RUN set -eux; \
 		echo '    }'; \
 		echo '}'; \
 	} | tee /etc/nginx/conf.d/default.conf
+
+ENTRYPOINT ["service", "nginx", "start"]
