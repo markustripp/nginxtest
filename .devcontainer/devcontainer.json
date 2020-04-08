@@ -7,5 +7,5 @@
 	},
 	"extensions": [],
 	"forwardPorts": [80],
-	"postCreateCommand": "uname -a"
-}
+    "postCreateCommand": "bash .devcontainer/postCreate.sh"
+}+
